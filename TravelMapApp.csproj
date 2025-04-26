@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10" />
+		<PackageReference Include="GMap.NET.Core" Version="2.1.7" />
+		<PackageReference Include="GMap.NET.WinPresentation" Version="2.1.7" />
+		<PackageReference Include="System.Text.Json" Version="9.0.4" />
+	</ItemGroup>
+
+</Project>
